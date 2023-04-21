@@ -1,3 +1,15 @@
+# mpt 0.14.0
+
+* Added Latvian support.
+
+# mpt 0.13.0
+
+* Added Spanish support.
+
+# mpt 0.12.0
+
+* Added formal German support (thanks Klaus Frieler!).
+
 # mpt 0.11.0
 
 * Added Italian support (thanks Elvira Brattico!).
