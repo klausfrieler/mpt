@@ -1,11 +1,17 @@
 # Mistuning Perception Test (MPT)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1415363.svg)](https://doi.org/10.5281/zenodo.1415363)
-[![R-CMD-check](https://github.com/pmcharrison/mpt/workflows/R-CMD-check/badge.svg)](https://github.com/pmcharrison/mpt/actions)
 
 The MPT is an adaptive test of mistuning perception abilities.
 
-We invite you to try the MPT [here!](http://shiny.pmcharrison.com/mpt-demo)
+We invite you to try the MPT [here!](https://shiny.gold-msi.org/longgold_demo/)
+
+Want to use this test in your own online study, but don't want to go to the trouble of setting up your own 
+web server? You are invited to host your study on the DOTS testing server of the 
+[German Society for Music Psychology (DGM)](https://en.musikpsychologie.de/index.html).
+This service is free of charge, but requires a current membership of the GDM, which currently
+costs 45 euros per year (22 euros for students and the unemployed).
+For more information please contact Klaus Frieler (kgf@omniversum.de).
 
 ## Citation
 
@@ -57,6 +63,23 @@ into new languages:
 4. Install the MPT:
 
 `devtools::install_github('pmcharrison/mpt')`
+
+5. Tell Shiny to use your computer's default browser, instead of the RStudio browser,
+   which doensn't play well with this test.
+   First, open your .Rprofile file:
+
+```r
+install.packages("usethis")
+usethis::edit_r_profile()
+```
+
+   Add the following lines:
+
+```r
+options(shiny.launch.browser = .rs.invokeShinyWindowExternal)
+```
+
+  Save the file, then restart your R session (in the RStudio toolbar, click Session then Restart R).
 
 ## Usage
 
