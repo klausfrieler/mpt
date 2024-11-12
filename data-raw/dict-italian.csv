@@ -2,7 +2,7 @@ ID,IT
 AMPT_0001_I_0001_1,"Questo test valuta la tua capacità di percepire la mancanza di intonazione nei brani musicali.\\Verranno riprodotti alcuni frammenti musicali.\\In alcuni frammenti, il cantante sarà **intonato** con la musica di sottofondo, mentre in altre clip il cantante sarà **stonato**.\\Il tuo compito è decidere se il cantante è intonato o stonato.\\Fai clic su 'Continua' per ascoltare alcuni esempi."
 AMPT_0002_I_0001_1,**Esempio - Intonato** \\\\ In questo esempio il cantante è intonato con la musica di sottofondo.
 AMPT_0003_I_0001_1,**Esempio - Stonato** \\\\ In questo esempio il cantante è stonato con la musica di sottofondo.
-AMPT_0004_I_0001_1,"Nel test verranno riprodotte due versioni dello stesso frammento musicale, una dopo l'altra.\\In una versione il cantante sarà **intonato**, e nell'altra versione il cantante sarà **stonato **.\\Il tuo compito è identificare quale versione era **stonata**.\\Fai clic su 'Continua' per provare alcuni esempi."
+AMPT_0004_I_0001_1,"Nel test verranno riprodotte due versioni dello stesso frammento musicale, una dopo l'altra.\\In una versione il cantante sarà **intonato**, e nell'altra versione il cantante sarà **stonato**.\\Il tuo compito è identificare quale versione era **stonata**.\\Fai clic su 'Continua' per provare alcuni esempi."
 AMPT_0005_I_0001_1,**Esempio di domanda 1/2**\\\\Quale versione era **stonata**?
 AMPT_0005_R_0001_1,La prima
 AMPT_0005_R_0002_1,La seconda
